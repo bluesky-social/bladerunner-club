@@ -131,7 +131,7 @@ func NewServer(dir identity.Directory, config Config) (*Server, error) {
 		bskyClient.Headers = make(map[string]string)
 		bskyClient.Headers["x-ratelimit-bypass"] = config.RatelimitBypass
 	}
-	engine := automod.Engine{
+	eng := automod.Engine{
 		Logger:    logger,
 		Directory: dir,
 		Counters:  counters,
@@ -152,7 +152,7 @@ func NewServer(dir identity.Directory, config Config) (*Server, error) {
 
 	s := &Server{
 		logger:      logger,
-		Engine:      &engine,
+		Engine:      &eng,
 		RedisClient: rdb,
 	}
 

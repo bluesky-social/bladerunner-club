@@ -7,7 +7,7 @@ import (
 	"github.com/bluesky-social/indigo/atproto/syntax"
 	"github.com/bluesky-social/indigo/automod"
 	"github.com/bluesky-social/indigo/automod/countstore"
-	helpers "github.com/bluesky-social/indigo/automod/rules"
+	"github.com/bluesky-social/indigo/automod/helpers"
 )
 
 var (
