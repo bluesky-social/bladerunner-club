@@ -13,7 +13,7 @@ mention or reply to an account with "bad bot" to vote that an account is a bot; 
 
 if you consistently identity bots accurately, you become a blade runner.
 
-don't be a jaborni!
+don't be a jabroni!
 
 
 ## License
